@@ -1,17 +1,17 @@
 POO
 
 Classe : structure , qui est représenté par des propriétés et des méthodes.
-Elle peut contenir un constructeur qui est une fonction qui est s'execte lors
+Elle peut contenir un constructeur qui est une fonction qui est s'execute lors
 de l'instanciation de la Classe
 Ex : client
 
-Objet : une fois que la classe est instancier elle genere un Objet
+Objet : une fois que la classe est instancie elle genere un Objet
 
 Les parametre typés : les méthodes peuvent contenir des types (int, string) et avec un type de classe
 particulier. Ca nous permet une meilleur qualité de code .
 Dans la classe fournisseur , on a une méthode travaille qui prend en parametre un objet de type Client
 
 
-L'héritage : l'orsqu'une classe a des propriétés similaires à une autre classe et qu'elle est pareil
+L'héritage : l'orsqu'une classe a des propriétés similaires à une autre classe et qu'elle est similaire
 en terme fonctionnel on peut utiliser l'héritage pour optimiser notre code.
 Classe Personne
