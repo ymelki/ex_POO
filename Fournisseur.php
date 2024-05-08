@@ -5,7 +5,9 @@ class Fournisseur extends Personne {
 
     public function travaille(Client $client )
     {
-       echo "le fournisseur travaille : ". $client->afficher();
+       echo "le ". $this::class ." travaille : 
+       avec le : " . $client::class ." ".
+        $client->afficher();
     }
     
     

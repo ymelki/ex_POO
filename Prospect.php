@@ -1,6 +1,7 @@
 <?php
 
-class Client  extends Personne {
+class Prospect  extends Personne {
+    
    
     
     

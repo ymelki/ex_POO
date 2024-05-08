@@ -15,3 +15,18 @@ Dans la classe fournisseur , on a une méthode travaille qui prend en parametre 
 L'héritage : l'orsqu'une classe a des propriétés similaires à une autre classe et qu'elle est similaire
 en terme fonctionnel on peut utiliser l'héritage pour optimiser notre code.
 Classe Personne
+
+---------
+créé la classe
+Ingenieur (nom, prime,salaire)
+Commercial (nom, prime,salaire)
+Secretaire (nom, salaire)
+Stagiaire (nom)
+GRH 
+
+Le GRH va gérer
+ - une liste d'Ingenieur 
+ - une liste d'employée
+ -ou une liste primable 
+ - ou une liste de salarié 
+ - une liste de primable et d'ingénieur
