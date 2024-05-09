@@ -1,6 +1,6 @@
 <?php
 
-class Commercial implements Employee{
+class Commercial implements Employee , Primable  {
     private string $name;
     private int $age;
     private int $salaire;

@@ -42,4 +42,24 @@ class Grh {
 
       return $this;
    }
+
+   /**
+    * Get the value of primableSalarie
+    */ 
+   public function getPrimableSalarie()
+   {
+      return $this->primableSalarie;
+   }
+
+   /**
+    * Set the value of primableSalarie
+    *
+    * @return  self
+    */ 
+   public function setPrimableSalarie(Primable $primableSalarie)
+   {
+      $this->primableSalarie[] = $primableSalarie;
+
+      return $this;
+   }
 }

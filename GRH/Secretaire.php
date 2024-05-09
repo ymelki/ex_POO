@@ -5,7 +5,7 @@ class Secretaire implements Employee {
     private int $age;
     private int $salaire;
 
-    public function __construct($name, $age, $salaire, $prime){
+    public function __construct($name, $age, $salaire){
         $this->name=$name;
         $this->age=$age;
         $this->salaire=$salaire;
